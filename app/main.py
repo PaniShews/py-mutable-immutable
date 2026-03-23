@@ -15,9 +15,7 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
-
 sorted_variables = (lucky_number, pi, one_is_a_prime_number, name, my_favourite_films, profile_info, marks, collection_of_coins)
-
 result_dict = {}
 mutable_list = []
 immutable_list = []
