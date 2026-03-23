@@ -16,23 +16,22 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-# write your code here
-sorted_variables = (lucky_number,
+all_variables = (lucky_number,
                     pi, one_is_a_prime_number,
                     name, my_favourite_films,
                     profile_info,
                     marks,
                     collection_of_coins)
-result_dict = {}
+sorted_variables = {}
 mutable_list = []
 immutable_list = []
-for value in sorted_variables:
+for value in all_variables:
     if isinstance(value, (list, set, dict)):
         mutable_list.append(value)
     else:
         immutable_list.append(value)
 
-result_dict["mutable"] = mutable_list
-result_dict["immutable"] = immutable_list
+sorted_variables["mutable"] = mutable_list
+sorted_variables["immutable"] = immutable_list
 
-print(result_dict)
+print(sorted_variables)
